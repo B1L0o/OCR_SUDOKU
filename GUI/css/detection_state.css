@@ -1,0 +1,69 @@
+/*
+Green Color: #addb67
+ */
+
+/* SOLVER MENU */
+
+#main_title {
+    color: #FFFFFF;
+}
+
+#sudoku_image {
+    border: 2px solid #FFFFFF;
+}
+
+#save_button
+{
+    border: 2px solid #7e57c2;
+    background-color: #0e293f;
+}
+
+#detection_button {
+    background: #0e293f;
+    color: #7e57c2;
+    border: 2px solid #7e57c2;
+}
+
+#pre_process_button, #image_rotation_button
+{
+    background: #0e293f;
+    border: 2px solid #addb67;
+    color: #addb67;
+}
+
+#ai_button, #construction_button {
+    background: #0e293f;
+    border: 2px solid #122d42;
+    color: darkgray;
+}
+
+#ai_button:hover, #construction_button:hover {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+
+/* FUNC MEDIAN & MEDIUM */
+
+#median {
+    background: #0e293f;
+    color: #7e57c2;
+    border: 2px solid #7e57c2;
+}
+
+#threshold, #inversion, #canny_edge {
+    background: #0e293f;
+    border: 2px solid #122d42;
+    color: darkgray;
+}
+
+#black_and_white {
+    background: #0e293f;
+    border: 2px solid #addb67;
+    color: #addb67;
+}
+
+#threshold:hover, #inversion:hover, #canny_edge:hover {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
